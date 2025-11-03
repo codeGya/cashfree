@@ -15,6 +15,6 @@ router.get("/tickets", getTickets);
 router.post("/tickets/:id/decision", ticketDecision);
 router.post("/tickets/:id/refund", issueRefund);
 router.post("/tickets/:id/close", closeTicket);
-router.post("/tickets/:id/escalate", escalateTicket); // 👈 new endpoint
+router.post("/tickets/:id/escalate", escalateTicket); 
 
 export default router;
